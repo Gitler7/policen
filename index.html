@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW - Досконалість у русі</title>
+    <link rel="stylesheet" href="policen.css">
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-image: url('https://via.placeholder.com/1920x400'); /* Замість цього вставте зображення автомобіля */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        header h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #000;
+            padding: 15px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            color: #007bff;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .models {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .model {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            text-align: center;
+            overflow: hidden;
+        }
+        .model img {
+            width: 100%;
+            height: auto;
+        }
+        .model h3 {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BMW - Досконалість у русі</h1>
+    </header>
+    <nav>
+        <a href="#models">Моделі</a>
+        <a href="#about">Про нас</a>
+        <a href="#contact">Контакти</a>
+    </nav>
+    <main>
+        <section id="models">
+            <h2>Наші моделі</h2>
+            <div class="models">
+                <div class="model">
+                    <img src="https://via.placeholder.com/300x200" alt="BMW X5">
+                    <h3>BMW X5</h3>
+                    <p>Динаміка, яка не має меж.</p>
+                </div>
+                <div class="model">
+                    <img src="https://via.placeholder.com/300x200" alt="BMW M3">
+                    <h3>BMW M3</h3>
+                    <p>Драйв та швидкість у кожній деталі.</p>
+                </div>
+                <div class="model">
+                    <img src="https://via.placeholder.com/300x200" alt="BMW i8">
+                    <h3>BMW i8</h3>
+                    <p>Майбутнє вже тут.</p>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>Про нас</h2>
+            <p>BMW - це більше, ніж автомобілі. Це стиль життя, інновації та висока якість.</p>
+        </section>
+        <section id="contact">
+            <h2>Контакти</h2>
+            <p>Email: <a href="mailto:info@bmw.com">info@bmw.com</a></p>
+            <p>Телефон: +380 44 123 4567</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 BMW Україна. Усі права захищені.</p>
+    </footer>
+</body>
+</html>
