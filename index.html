@@ -3,121 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BMW - Досконалість у русі</title>
+    <title>Державне бюро розслідувань</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f4f4f9;
+            color: #333;
         }
         header {
-            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTocZxxQoWcyg8Jk2xT-Pj5EZZUeiPKHWdVBg&s'); /* Замість цього вставте зображення автомобіля */
-            background-size: cover;
-            background-position: center;
-            height: 400px;
+            background-color: #0056a3;
             color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
-        }
-        header h1 {
-            font-size: 50px;
-            margin: 0;
+            padding: 20px 10px;
+            text-align: center;
         }
         nav {
             display: flex;
             justify-content: center;
-            background-color: #000;
-            padding: 15px 0;
+            background-color: #003f73;
         }
         nav a {
             color: white;
             text-decoration: none;
-            margin: 0 15px;
-            font-size: 18px;
-            text-transform: uppercase;
+            padding: 15px 20px;
+            display: block;
         }
         nav a:hover {
-            color: #007bff;
+            background-color: #0056a3;
         }
         main {
             padding: 20px;
-            text-align: center;
-        }
-        .models {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
-        .model {
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-            width: 300px;
-            text-align: center;
-            overflow: hidden;
-        }
-        .model img {
-            width: 100%;
-            height: auto;
-        }
-        .model h3 {
-            margin: 10px 0;
         }
         footer {
-            background-color: #000;
+            background-color: #0056a3;
             color: white;
             text-align: center;
             padding: 10px 0;
-            margin-top: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .card h2 {
+            margin-top: 0;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>by hack @F1KS1</h1>
+        <h1>Державне бюро розслідувань</h1>
+        <p>Справедливість для кожного громадянина</p>
     </header>
     <nav>
-        <a href="#models">by hack @F1KS1</a>
-        <a href="#about">by hack @F1KS1</a>
-        <a href="#contact">by hack @F1KS1</a>
+        <a href="#about">Про нас</a>
+        <a href="#news">Новини</a>
+        <a href="#contacts">Контакти</a>
     </nav>
     <main>
-        <section id="models">
-            <h2>Наші моделі</h2>
-            <div class="models">
-                <div class="model">
-                    <img src="file:///C:/Users/Admin/Pictures/photo_2024-12-01_20-39-35.jpg" alt="">
-                    <h3>Vladeslav Borko</h3>
-                    <p>Динаміка, яка не має меж.</p>
-                </div>
-                <div class="model">
-                    <img src="file:///C:/Users/Admin/Pictures/photo_2024-12-01_20-39-35.jpg" alt="">
-                    <h3>Vladeslav Borko</h3>
-                    <p>Драйв та швидкість у кожній деталі.</p>
-                </div>
-                <div class="model">
-                    <img src="file:///C:/Users/Admin/Pictures/photo_2024-12-01_20-39-35.jpg" alt="">
-                    <h3>Vladeslav Borko</h3>
-                    <p>Майбутнє вже тут.</p>
-                </div>
-            </div>
-        </section>
-        <section id="about">
+        <section id="about" class="card">
             <h2>Про нас</h2>
-            <p>Vladeslav Borko - це більше, ніж автомобілі. Це стиль життя, інновації та висока якість.</p>
+            <img src="https://via.placeholder.com/800x400?text=Фото+ДБР" alt="Фото співробітників ДБР">
+            <p>Державне бюро розслідувань (ДБР) – це правоохоронний орган, який займається розслідуванням злочинів, вчинених посадовими особами, суддями, працівниками правоохоронних органів та військовими.</p>
         </section>
-        <section id="contact">
+        <section id="news" class="card">
+            <h2>Останні новини</h2>
+            <img src="https://via.placeholder.com/800x400?text=Розслідування" alt="Фото розслідування">
+            <ul>
+                <li><strong>22.01.2025:</strong> ДБР викрило схему корупції у державних установах.</li>
+                <li><strong>15.01.2025:</strong> Запуск нової програми співпраці з міжнародними партнерами.</li>
+                <li><strong>01.01.2025:</strong> Розпочато розслідування справи щодо зловживань у будівельній сфері.</li>
+            </ul>
+        </section>
+        <section id="contacts" class="card">
             <h2>Контакти</h2>
-            <p>Email: <a href="https://www.youtube.com/watch?v=6r1rtpJMWD4">ascdasd43@gmail.com</a></p>
-            <p>Телефон: +380972402900</p>
+            <img src="https://github.com/Gitler7/policen/blob/main/photo_2025-01-07_21-34-03.jpg" alt="Фото кого вони шукають  ДБР">
+            <p><strong>Адреса:</strong> м. Київ, вул. Справедливості, 10</p>
+            <p><strong>Телефон:</strong> +38 (044) 123-45-67</p>
+            <p><strong>Email:</strong> info@dbr.gov.ua</p>
         </section>
     </main>
     <footer>
-        <p>© 2024 by hack @F1KS1 Усі права захищені.</p>
+        <p>&copy; 2025 Державне бюро розслідувань. Всі права захищені.</p>
     </footer>
 </body>
 </html>
